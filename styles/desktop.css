@@ -1,4 +1,3 @@
-
 html {
 	font-size: 60%;
 }
@@ -37,7 +36,7 @@ body {
 
 .website-title{
   text-align: center;
-  font-size: 7rem;
+  font-size: 5vw;
   color: #2d3142;
   font-family: Tangerine, 'Source Sans Pro';
 }
@@ -79,7 +78,7 @@ li a:hover {
   background-color: #F2F1F3;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 3rem;
+  padding-top: 3vh;
 }
 
 #siamese {
@@ -95,7 +94,7 @@ li a:hover {
 .welcome-msg {
   display: flex;
   text-align: center;
-  font-size: 7rem;
+  font-size: 5vw;
   color: #2d3142;
   font-family: Tangerine, 'Source Sans Pro';
   white-space: nowrap;
@@ -108,7 +107,7 @@ li a:hover {
   max-width: 70rem;
   text-align: center;
   align-self: center;
-  font-size: 1.75rem;
+  font-size: 1.15vw;
   font-weight: 300;
   color: #000000;
   font-family: Spectral, 'Source Sans Pro';
@@ -136,7 +135,7 @@ li a:hover {
 .contact-us {
   display: flex;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2vw;
   color: #2d3142;
   font-family: Spectral, 'Source Sans Pro';
   justify-content: space-around;
@@ -146,7 +145,7 @@ li a:hover {
 .phone-number {
   display: flex;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5vw;
   color: #2d3142;
   font-family: Spectral, 'Source Sans Pro';
   padding: 3.5rem;
