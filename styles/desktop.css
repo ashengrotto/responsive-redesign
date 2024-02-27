@@ -24,7 +24,7 @@ body {
 
 #navigation-bar {
   width: 100vw;
-  max-height: 20vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -124,7 +124,7 @@ li a:hover {
 
 #lower-bar {
   width: 100vw;
-  max-height: 20vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
