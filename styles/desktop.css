@@ -82,10 +82,10 @@ li a:hover {
 
 #siamese {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-self: center;
-  padding-left: 7rem;
-  max-width: 100%;
+  padding-left: 20rem;
+  max-width: 30%;
   height: auto;
   width: auto;
 }
