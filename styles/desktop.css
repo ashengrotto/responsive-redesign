@@ -12,6 +12,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
+  background-color: #e8e8ff !important;
 }
 
 #main {
@@ -78,6 +79,7 @@ li a:hover {
   background-color: #F2F1F3;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 3rem;
 }
 
 #siamese {
@@ -103,10 +105,10 @@ li a:hover {
 
 .intro-text {
   display: flex;
-  max-width: 60rem;
+  max-width: 70rem;
   text-align: center;
   align-self: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 300;
   color: #000000;
   font-family: Spectral, 'Source Sans Pro';
@@ -123,13 +125,11 @@ li a:hover {
 
 #lower-bar {
   width: 100vw;
-  height: 12vh;
+  max-height: 20vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-self: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: #e8e8ff;
 }
 
@@ -148,4 +148,5 @@ li a:hover {
   color: #2d3142;
   font-family: Spectral, 'Source Sans Pro';
   padding: 3.5rem;
+  justify-content: space-around;
 }
