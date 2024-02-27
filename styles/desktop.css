@@ -134,6 +134,7 @@ li a:hover {
 }
 
 .contact-us {
+  display: flex;
   text-align: center;
   font-size: 3rem;
   color: #2d3142;
@@ -143,6 +144,7 @@ li a:hover {
 }
 
 .phone-number {
+  display: flex;
   text-align: center;
   font-size: 2rem;
   color: #2d3142;
