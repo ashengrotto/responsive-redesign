@@ -65,7 +65,7 @@ li a:hover {
   text-decoration: none;
 }
 
-#introduction {
+#introduction-body {
   width: 100vw;
   height: 75vh;
   display: flex;
@@ -73,18 +73,18 @@ li a:hover {
   justify-content: space-around;
 }
 
-#introduction-text {
+#introduction {
   display: flex;
   background-color: #F2F1F3;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 #siamese {
   display: flex;
   justify-content: space-evenly;
   align-self: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-left: 7rem;
   max-width: 100%;
   height: auto;
   width: auto;
@@ -97,25 +97,28 @@ li a:hover {
   color: #2d3142;
   font-family: Tangerine, 'Source Sans Pro';
   white-space: nowrap;
+  align-self: center;
   flex-shrink: 0;
-  padding: 3rem;
 }
 
 .intro-text {
   display: flex;
   max-width: 60rem;
   text-align: center;
+  align-self: center;
   font-size: 2rem;
   font-weight: 300;
   color: #000000;
   font-family: Spectral, 'Source Sans Pro';
   flex-shrink: 0;
+  flex-direction: column;
 }
 
-#logos {
+.logos {
   display: flex;
+  flex-direction: row;
+  align-self: center;
   justify-content: space-evenly;
-  justify-content: column;
 }
 
 #lower-bar {
