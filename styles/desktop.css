@@ -105,6 +105,37 @@ ul li:hover ul.cat-dropdown {
   height: fit-content;
 }
 
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: fit-content;
+}
+
+#cfa {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 7vw;
+  height: fit-content;
+}
+
+#ica {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 10vw;
+  height: fit-content;
+}
+
+#cff {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  width: 7vw;
+  height: fit-content;
+}
+
 .welcome-msg {
   display: flex;
   text-align: center;
@@ -129,13 +160,6 @@ ul li:hover ul.cat-dropdown {
   flex-direction: column;
 }
 
-.logos {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  justify-content: space-evenly;
-  height: fit-content;
-}
 
 #lower-bar {
   width: 100vw;
@@ -275,7 +299,7 @@ ul li:hover ul.cat-dropdown {
     align-self: center;
     justify-content: space-evenly;
     height: fit-content;
-    max-width: 20%;
+    max-width: 10%;
     height: auto;
     width: auto\9; 
   }
