@@ -84,6 +84,7 @@ ul li:hover ul.cat-dropdown {
   flex-direction: row;
   background-color: #F2F1F3;
   justify-content: space-evenly;
+  padding: 2rem;
 }
 
 #introduction {
@@ -234,6 +235,7 @@ ul li:hover ul.cat-dropdown {
     flex-direction: column;
     background-color: #F2F1F3;
     justify-content: space-around;
+    padding: 2rem;
   }
 
   #introduction {
