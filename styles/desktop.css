@@ -200,7 +200,6 @@ ul li:hover ul.cat-dropdown {
     flex-direction: column;
     background-color: #F2F1F3;
     justify-content: space-around;
-    padding: 3rem;
   }
 
   li a {
@@ -215,10 +214,10 @@ ul li:hover ul.cat-dropdown {
 
   #siamese {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-self: center;
     max-width: 60%;
     height: auto;
-    width: auto\9; /* ie8 */  
+    width: auto\9; 
   }
 }
