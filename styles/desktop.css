@@ -270,7 +270,7 @@ ul li:hover ul.cat-dropdown {
   .welcome-msg {
     display: flex;
     text-align: center;
-    font-size: 5vw;
+    font-size: 7vw;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
     white-space: nowrap;
@@ -282,7 +282,7 @@ ul li:hover ul.cat-dropdown {
     display: flex;
     text-align: center;
     align-self: center;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 300;
     color: #000000;
     font-family: Spectral, 'Source Sans Pro';
