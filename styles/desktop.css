@@ -100,7 +100,6 @@ ul li:hover ul.cat-dropdown {
   display: flex;
   justify-content: space-around;
   align-self: center;
-  padding-left: 8vw;
   max-width: 30vw;
   height: fit-content;
 }
