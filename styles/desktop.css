@@ -84,7 +84,7 @@ ul li:hover ul.cat-dropdown {
   display: flex;
   flex-direction: row;
   background-color: #F2F1F3;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #introduction {
@@ -92,7 +92,7 @@ ul li:hover ul.cat-dropdown {
   flex-direction: row;
   background-color: #F2F1F3;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 3vh;
 }
 
@@ -113,7 +113,7 @@ ul li:hover ul.cat-dropdown {
 
 #cfa {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-self: center;
   width: 7vw;
   height: fit-content;
@@ -121,7 +121,7 @@ ul li:hover ul.cat-dropdown {
 
 #ica {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-self: center;
   width: 10vw;
   height: fit-content;
@@ -129,7 +129,7 @@ ul li:hover ul.cat-dropdown {
 
 #cff {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-self: center;
   width: 7vw;
   height: fit-content;
@@ -165,7 +165,7 @@ ul li:hover ul.cat-dropdown {
   height: 12vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-self: auto;
   background-color: #e8e8ff;
 }
