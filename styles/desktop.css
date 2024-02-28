@@ -103,7 +103,6 @@ ul li:hover ul.cat-dropdown {
   padding-left: 8vw;
   max-width: 30%;
   height: fit-content;
-  width: fit-content;
 }
 
 .welcome-msg {
@@ -189,5 +188,15 @@ ul li:hover ul.cat-dropdown {
     flex-direction: column;
     background-color: #F2F1F3;
     justify-content: space-around;
+  }
+
+  li a {
+    display: block;
+    font-size: 1rem;
+    color: #2d3142;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-family: Spectral, 'Source Sans Pro';
   }
 }
