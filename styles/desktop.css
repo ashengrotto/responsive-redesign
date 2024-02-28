@@ -293,17 +293,6 @@ ul li:hover ul.cat-dropdown {
     height: fit-content;
     padding: 2vh;
   }
-
-  #social-media {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: space-evenly;
-    height: fit-content;
-    max-width: 20vw;
-    height: auto;
-    width: auto\9; 
-  }
   
   #cfa {
     display: flex;
@@ -327,6 +316,17 @@ ul li:hover ul.cat-dropdown {
     align-self: center;
     height: 6vh;
     width: auto;
+  }
+
+  #social-media {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-evenly;
+    height: fit-content;
+    max-width: 30vw;
+    height: auto;
+    width: auto\9; 
   }
 
   .contact-us {
