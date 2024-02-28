@@ -301,4 +301,29 @@ ul li:hover ul.cat-dropdown {
     height: auto;
     width: auto\9; 
   }
+  
+  #cfa {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 3vw;
+    height: fit-content;
+  }
+  
+  #ica {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 5vw;
+    height: fit-content;
+  }
+  
+  #cff {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 3vw;
+    height: fit-content;
+  }
+  
 }
