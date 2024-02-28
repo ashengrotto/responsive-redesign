@@ -221,5 +221,6 @@ ul li:hover ul.cat-dropdown {
     max-width: 60%;
     height: auto;
     width: auto\9; 
+    padding-left: 0rem;
   }
 }
