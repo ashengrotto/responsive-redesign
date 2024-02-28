@@ -134,6 +134,7 @@ ul li:hover ul.cat-dropdown {
   flex-direction: row;
   align-self: center;
   justify-content: space-evenly;
+  height: fit-content;
 }
 
 #lower-bar {
@@ -164,4 +165,8 @@ ul li:hover ul.cat-dropdown {
   font-family: Spectral, 'Source Sans Pro';
   padding: 3.5rem;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 680px) {
+  
 }
