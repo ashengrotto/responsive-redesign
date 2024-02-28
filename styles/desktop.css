@@ -306,24 +306,20 @@ ul li:hover ul.cat-dropdown {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
-    width: 3vw;
-    height: fit-content;
+    height: 3vh;
   }
   
   #ica {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
-    width: 5vw;
-    height: fit-content;
+    height: 5vh;
   }
   
   #cff {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
-    width: 3vw;
-    height: fit-content;
-  }
+    height: 3vh;
   
 }
