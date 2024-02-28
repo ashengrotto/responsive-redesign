@@ -221,6 +221,43 @@ ul li:hover ul.cat-dropdown {
     max-width: 60%;
     height: auto;
     width: auto\9; 
-    padding-left: 0rem;
+    padding: 0rem;
   }
+
+  .welcome-msg {
+    display: flex;
+    text-align: center;
+    font-size: 7vw;
+    color: #2d3142;
+    font-family: Tangerine, 'Source Sans Pro';
+    white-space: nowrap;
+    align-self: center;
+    flex-shrink: 0;
+  }
+  
+  .intro-text {
+    display: flex;
+    max-width: 70rem;
+    text-align: center;
+    align-self: center;
+    font-size: 1.15vw;
+    font-weight: 300;
+    color: #000000;
+    padding: 3rem;
+    font-family: Spectral, 'Source Sans Pro';
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .logos {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-evenly;
+    height: fit-content;
+    max-width: 30vw;
+    height: auto;
+    width: auto\9; 
+  }
+  
 }
