@@ -295,6 +295,7 @@ ul li:hover ul.cat-dropdown {
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content;
+    padding: 2rem;
   }
 
   #social-media {
@@ -312,7 +313,7 @@ ul li:hover ul.cat-dropdown {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
-    height: 8vh;
+    height: 6vh;
     width: auto;
   }
   
