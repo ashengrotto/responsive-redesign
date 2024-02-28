@@ -147,6 +147,17 @@ ul li:hover ul.cat-dropdown {
   background-color: #e8e8ff;
 }
 
+#social-media {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-evenly;
+  height: fit-content;
+  max-width: 20%;
+  height: auto;
+  width: auto\9; 
+}
+
 .contact-us {
   display: flex;
   text-align: center;
@@ -259,5 +270,4 @@ ul li:hover ul.cat-dropdown {
     height: auto;
     width: auto\9; 
   }
-  
 }
