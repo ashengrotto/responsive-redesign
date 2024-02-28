@@ -278,7 +278,6 @@ ul li:hover ul.cat-dropdown {
     font-size: 1.15vw;
     font-weight: 300;
     color: #000000;
-    padding: 3rem;
     font-family: Spectral, 'Source Sans Pro';
     flex-shrink: 0;
     flex-direction: column;
