@@ -166,6 +166,7 @@ ul li:hover ul.cat-dropdown {
   font-family: Spectral, 'Source Sans Pro';
   justify-content: space-around;
   padding: 3rem;
+  font-weight: 300;
 }
 
 .phone-number {
@@ -266,7 +267,15 @@ ul li:hover ul.cat-dropdown {
     align-self: center;
     justify-content: space-evenly;
     height: fit-content;
-    max-width: 30vw;
+  }
+
+  #social-media {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-evenly;
+    height: fit-content;
+    max-width: 20%;
     height: auto;
     width: auto\9; 
   }
