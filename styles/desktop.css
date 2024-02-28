@@ -101,7 +101,7 @@ ul li:hover ul.cat-dropdown {
   justify-content: space-around;
   align-self: center;
   padding-left: 8vw;
-  max-width: 30%;
+  max-width: 30vw;
   height: fit-content;
 }
 
@@ -198,5 +198,14 @@ ul li:hover ul.cat-dropdown {
     padding: 14px 16px;
     text-decoration: underline;
     font-family: Spectral, 'Source Sans Pro';
+  }
+
+  #siamese {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding-left: 8vw;
+    max-height: 30vh;
+    width: fit-content;
   }
 }
