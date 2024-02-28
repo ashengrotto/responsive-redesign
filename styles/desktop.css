@@ -270,7 +270,7 @@ ul li:hover ul.cat-dropdown {
   .welcome-msg {
     display: flex;
     text-align: center;
-    font-size: 7vw;
+    font-size: 10vw;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
     white-space: nowrap;
@@ -280,21 +280,19 @@ ul li:hover ul.cat-dropdown {
   
   .intro-text {
     display: flex;
-    max-width: 70rem;
     text-align: center;
     align-self: center;
-    font-size: 1.15vw;
+    font-size: 10vw;
     font-weight: 300;
     color: #000000;
     font-family: Spectral, 'Source Sans Pro';
     flex-shrink: 0;
     flex-direction: column;
   }
-  
+
   .logos {
     display: flex;
     flex-direction: row;
-    align-self: center;
     justify-content: space-evenly;
     height: fit-content;
   }
