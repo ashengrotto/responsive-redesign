@@ -256,7 +256,7 @@ ul li:hover ul.cat-dropdown {
 
   #siamese {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-self: center;
     max-width: 60%;
     height: auto;
