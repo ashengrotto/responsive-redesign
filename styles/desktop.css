@@ -93,7 +93,7 @@ ul li:hover ul.cat-dropdown {
   background-color: #F2F1F3;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-top: 3vh;
+  padding: 3vh;
 }
 
 #siamese {
@@ -237,7 +237,15 @@ ul li:hover ul.cat-dropdown {
     flex-direction: column;
     background-color: #F2F1F3;
     justify-content: space-around;
-    padding: 3rem;
+  }
+
+  #introduction {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F1F3;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3vh;
   }
 
   li a {
@@ -257,7 +265,6 @@ ul li:hover ul.cat-dropdown {
     max-width: 60%;
     height: auto;
     width: auto\9; 
-    padding: 0rem;
   }
 
   .welcome-msg {
