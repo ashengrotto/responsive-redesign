@@ -159,7 +159,6 @@ ul li:hover ul.cat-dropdown {
   flex-direction: column;
 }
 
-
 #lower-bar {
   width: 100vw;
   height: 12vh;
@@ -264,6 +263,7 @@ ul li:hover ul.cat-dropdown {
     max-width: 60%;
     height: auto;
     width: auto\9; 
+    padding: 3vh;
   }
 
   .welcome-msg {
@@ -275,6 +275,7 @@ ul li:hover ul.cat-dropdown {
     white-space: nowrap;
     align-self: center;
     flex-shrink: 0;
+    padding: 3vh;
   }
   
   .intro-text {
@@ -295,7 +296,7 @@ ul li:hover ul.cat-dropdown {
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content;
-    padding: 2rem;
+    padding: 2vh;
   }
 
   #social-media {
@@ -304,7 +305,7 @@ ul li:hover ul.cat-dropdown {
     align-self: center;
     justify-content: space-evenly;
     height: fit-content;
-    max-width: 10%;
+    max-width: 20vw;
     height: auto;
     width: auto\9; 
   }
@@ -332,4 +333,26 @@ ul li:hover ul.cat-dropdown {
     height: 6vh;
     width: auto;
   }
+
+  .contact-us {
+    display: flex;
+    text-align: center;
+    font-size: 3vw;
+    color: #2d3142;
+    font-family: Spectral, 'Source Sans Pro';
+    justify-content: space-around;
+    padding: 3rem;
+    font-weight: 300;
+  }
+  
+  .phone-number {
+    display: flex;
+    text-align: center;
+    font-size: 2vw;
+    color: #2d3142;
+    font-family: Spectral, 'Source Sans Pro';
+    padding: 3.5rem;
+    justify-content: space-around;
+  }
+  
 }
