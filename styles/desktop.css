@@ -175,4 +175,13 @@ ul li:hover ul.cat-dropdown {
     flex-direction: row;
     overflow: hidden;
   }
+
+  #introduction-body {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F1F3;
+    justify-content: space-around;
+  }
 }
