@@ -168,7 +168,7 @@ ul li:hover ul.cat-dropdown {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (orientation: portrait) {
   #introduction-body {
     width: 100vw;
     height: 75vh;
@@ -176,15 +176,5 @@ ul li:hover ul.cat-dropdown {
     flex-direction: column;
     background-color: #F2F1F3;
     justify-content: space-around;
-  }
-
-  li a {
-    display: block;
-    font-size: 1rem;
-    color: #2d3142;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-    font-family: Spectral, 'Source Sans Pro';
   }
 }
