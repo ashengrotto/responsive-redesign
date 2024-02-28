@@ -139,7 +139,7 @@ ul li:hover ul.cat-dropdown {
 
 #lower-bar {
   width: 100vw;
-  height: 15vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
