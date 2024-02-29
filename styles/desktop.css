@@ -371,8 +371,6 @@ ul li:hover ul.cat-dropdown {
   }
 
   .contact-us {
-    position: relative;
-    z-index: 1;
     order: 1;
     display: flex;
     justify-content: start;
@@ -387,7 +385,8 @@ ul li:hover ul.cat-dropdown {
   
   .phone-number {
     position: relative;
-    z-index: 2;
+    left: 2rem;
+    top: 3rem;
     order: 3;
     display: flex;
     text-align: center;
