@@ -361,6 +361,7 @@ ul li:hover ul.cat-dropdown {
 
   #social-handle {
     display: block;
+    text-align: center;
   }
 
   .contact-us {
