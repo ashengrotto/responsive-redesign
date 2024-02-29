@@ -347,13 +347,16 @@ ul li:hover ul.cat-dropdown {
   }
   
   #social-logo {
-    max-height: 1.5vh;
+    max-height: 2vh;
+    width: auto;
+    height: auto;
     justify-content: space-evenly;
     padding: 2rem;
   }
 
   #social-handle {
-    display: block;
+    display: block-inline;
+    flex-direction: column;
   }
 
   .contact-us {
