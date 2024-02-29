@@ -344,7 +344,7 @@ ul li:hover ul.cat-dropdown {
     flex-direction: column;
     align-self: baseline;
     height: fit-content;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   
   #social-logo {
@@ -362,6 +362,7 @@ ul li:hover ul.cat-dropdown {
 
   .contact-us {
     display: flex;
+    justify-content: start;
     text-align: center;
     font-size: 3vw;
     color: #2d3142;
