@@ -360,7 +360,7 @@ ul li:hover ul.cat-dropdown {
   }
 
   .contact-us {
-    order: 3;
+    order: 1;
     display: flex;
     justify-content: start;
     text-align: center;
@@ -373,7 +373,7 @@ ul li:hover ul.cat-dropdown {
   }
   
   .phone-number {
-    order: 1;
+    order: 3;
     display: flex;
     text-align: center;
     font-size: 2vw;
