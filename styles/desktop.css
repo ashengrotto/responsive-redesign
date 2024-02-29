@@ -190,6 +190,10 @@ ul li:hover ul.cat-dropdown {
   display: none;
 }
 
+.mobile-phone {
+  display: none;
+}
+
 .contact-us {
   display: flex;
   text-align: center;
@@ -201,7 +205,7 @@ ul li:hover ul.cat-dropdown {
   font-weight: 300;
 }
 
-.phone-number {
+.phone {
   display: flex;
   text-align: center;
   font-size: 1.5vw;
@@ -370,6 +374,16 @@ ul li:hover ul.cat-dropdown {
     margin: auto;
   }
 
+  .mobile-phone {
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    color: #2d3142;
+    font-family: Spectral, 'Source Sans Pro';
+    padding: 3.5rem;
+    justify-content: space-around;
+  }
+
   .contact-us {
     order: 1;
     display: flex;
@@ -383,17 +397,9 @@ ul li:hover ul.cat-dropdown {
     font-weight: 300;
   }
   
-  .phone-number {
-    position: relative;
-    left: 2rem;
-    top: 3rem;
-    order: 3;
-    display: flex;
-    text-align: center;
-    font-size: 2vw;
-    color: #2d3142;
-    font-family: Spectral, 'Source Sans Pro';
-    padding: 3.5rem;
-    justify-content: space-around;
+  .phone {
+    display: none;
   }
+
+
 }
