@@ -388,6 +388,7 @@ ul li:hover ul.cat-dropdown {
   .phone-number {
     position: relative;
     z-index: 2;
+    order: 3;
     display: flex;
     text-align: center;
     font-size: 2vw;
