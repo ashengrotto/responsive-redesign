@@ -356,7 +356,7 @@ ul li:hover ul.cat-dropdown {
 
   #social-div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #social-handle {
