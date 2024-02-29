@@ -354,9 +354,13 @@ ul li:hover ul.cat-dropdown {
     padding: 1rem;
   }
 
+  #social-div {
+    display: flex;
+    flex-direction: column;
+  }
+
   #social-handle {
     display: block;
-    flex-direction: column;
   }
 
   .contact-us {
