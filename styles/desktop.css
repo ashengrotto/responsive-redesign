@@ -221,6 +221,7 @@ ul li:hover ul.cat-dropdown {
     display: flex;
     flex-direction: column;
     align-self: center;
+    overflow: scroll;
   }
 
   .nav-bar {
@@ -346,7 +347,7 @@ ul li:hover ul.cat-dropdown {
   }
   
   #social-logo {
-    max-height: 7vh;
+    max-height: 1.5vh;
     justify-content: space-evenly;
     padding: 2rem;
   }
