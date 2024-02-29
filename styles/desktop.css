@@ -341,7 +341,7 @@ ul li:hover ul.cat-dropdown {
     height: 12vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-self: auto;
     background-color: #e8e8ff;
   }
@@ -393,7 +393,6 @@ ul li:hover ul.cat-dropdown {
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
-    padding: 3rem;
     font-weight: 300;
   }
   
