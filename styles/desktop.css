@@ -210,7 +210,7 @@ ul li:hover ul.cat-dropdown {
 
 @media screen and (max-width: 650px) {
   body {
-    width: 100vw;
+    width: 97.5vw;
     height: 100vh;
     background-color: #e8e8ff !important;
     overflow-x: hidden;
@@ -348,11 +348,11 @@ ul li:hover ul.cat-dropdown {
   }
   
   #social-logo {
-    max-height: 2vh;
+    max-height: 4vh;
     width: auto;
     height: auto;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 1rem;
   }
 
   #social-handle {
