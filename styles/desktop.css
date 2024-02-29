@@ -181,6 +181,11 @@ ul li:hover ul.cat-dropdown {
   padding: 2rem;
 }
 
+#social-div {
+  display: flex;
+  flex-direction: row;
+}
+
 #social-handle {
   display: none;
 }
@@ -362,6 +367,7 @@ ul li:hover ul.cat-dropdown {
   #social-handle {
     display: block;
     text-align: center;
+    margin: auto;
   }
 
   .contact-us {
