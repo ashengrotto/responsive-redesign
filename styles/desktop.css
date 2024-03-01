@@ -259,18 +259,17 @@ ul li:hover ul.cat-dropdown {
     display: none;
   }
 
-  .mobile-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-self: center;
-    padding-top: 1rem;
-    background-color: #e8e8ff;
-  }
-
-  .dropdown {
+  .cat-dropdown {
     position: absolute;
     display: none;
+  }
+
+  ul li:hover ul.cat-dropdown {
+    display: block; 
+    color: #7F7FB5;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #e8e8ff;
   }
 
   #introduction-body {
