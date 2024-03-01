@@ -380,6 +380,7 @@ ul li:hover ul.cat-dropdown {
     justify-content: space-around;
     align-self: auto;
     background-color: #e8e8ff;
+    overflow: hidden;
   }
   
   #social-media {
