@@ -221,6 +221,10 @@ ul li:hover ul.cat-dropdown {
   justify-content: space-around;
 }
 
+.scroll-top {
+  display: none;
+}
+
 @media screen and (max-width: 650px) {
   body {
     width: 97.5vw;
@@ -438,7 +442,6 @@ ul li:hover ul.cat-dropdown {
     background-color: #7F7FB5;
     color: #F2F1F3;
     justify-content: flex-end;
-    position:fixed;
-    bottom:0px;
+    bottom: 0px;
   }
 }
