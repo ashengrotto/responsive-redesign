@@ -433,10 +433,12 @@ ul li:hover ul.cat-dropdown {
   }
 
   .scroll-top {
+    order: 3;
+    display: flex;
     background-color: #7F7FB5;
     color: #F2F1F3;
     align-self: flex-end;
     align-content: flex-end;
-    order: 3;
+    vertical-align: bottom;
   }
 }
