@@ -259,6 +259,7 @@ ul li:hover ul.cat-dropdown {
 
   ul {
     display: none;
+
   }
 
   .mobile-nav {
@@ -269,13 +270,6 @@ ul li:hover ul.cat-dropdown {
     padding-top: 1rem;
     background-color: #e8e8ff;
   }
-  
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-evenly;
-}
 
   #introduction-body {
     width: 100vw;
@@ -400,7 +394,6 @@ ul {
     width: auto;
     height: auto;
     justify-content: space-evenly;
-    padding: 1rem;
   }
 
   #social-div {
