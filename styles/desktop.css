@@ -259,7 +259,6 @@ ul li:hover ul.cat-dropdown {
 
   ul {
     display: none;
-
   }
 
   .mobile-nav {
@@ -393,12 +392,12 @@ ul li:hover ul.cat-dropdown {
     max-height: 4vh;
     width: auto;
     height: auto;
-    justify-content: space-evenly;
   }
 
   #social-div {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
 
   #social-handle {
