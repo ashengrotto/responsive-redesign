@@ -374,13 +374,11 @@ ul li:hover ul.cat-dropdown {
 
   #lower-bar {
     width: 100vw;
-    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-self: auto;
     background-color: #e8e8ff;
-    overflow: hidden;
   }
   
   #social-media {
@@ -443,5 +441,6 @@ ul li:hover ul.cat-dropdown {
     background-color: #7F7FB5;
     color: #F2F1F3;
     justify-content: flex-end;
+    bottom: 0px;
   }
 }
