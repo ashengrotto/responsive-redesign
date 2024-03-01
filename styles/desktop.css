@@ -443,5 +443,6 @@ ul li:hover ul.cat-dropdown {
     color: #F2F1F3;
     justify-content: flex-end;
     bottom: 0px;
+    align-self: flex-end;
   }
 }
