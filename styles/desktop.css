@@ -243,6 +243,7 @@ ul li:hover ul.cat-dropdown {
     font-size: 6vw;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
+    padding-top: 2rem;
   }
 
   .nav-bar {
