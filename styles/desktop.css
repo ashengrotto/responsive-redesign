@@ -251,29 +251,25 @@ ul li:hover ul.cat-dropdown {
     display: flex;
     justify-content: space-evenly;
   }
-  /* .mobile-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-self: center;
-    padding-top: 1rem;
-    background-color: #e8e8ff;
-  }
 
   .dropdown-one {
     display: none;
     position: absolute;
   }
 
-  ul li:hover ul.dropdown-one {
+  /* ul li:hover ul.dropdown-one {
     display: block; 
     color: #7F7FB5;
     text-decoration: none;
     justify-content: center;
     background-color: #e8e8ff;
+  } */
+
+  ul {
+    display: none;
   }
 
-  .mobile-nav:hover .dropdown-one, #cats-breeds:hover > .dropdown-two {
+  /* .mobile-nav:hover .dropdown-one, #cats-breeds:hover > .dropdown-two {
     display: block;
   }
 
@@ -283,7 +279,7 @@ ul li:hover ul.cat-dropdown {
     position: absolute;
     left: 2rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  } */
+  } */ 
 
   #introduction-body {
     width: 100vw;
