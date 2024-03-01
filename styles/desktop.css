@@ -379,7 +379,7 @@ ul li:hover ul.cat-dropdown {
   }
   
   #social-media {
-    order: 2;
+    order: 3;
     display: flex;
     flex-direction: column;
     align-self: baseline;
@@ -417,7 +417,7 @@ ul li:hover ul.cat-dropdown {
   }
 
   .contact-us {
-    order: 1;
+    order: 2;
     display: flex;
     justify-content: start;
     text-align: center;
@@ -435,5 +435,7 @@ ul li:hover ul.cat-dropdown {
   .scroll-top {
     background-color: #2d3142;
     color: #F2F1F3;
+    align-self: flex-end;
+    order: 1;
   }
 }
