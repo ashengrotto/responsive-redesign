@@ -392,6 +392,7 @@ ul li:hover ul.cat-dropdown {
     max-height: 4vh;
     width: auto;
     height: auto;
+    padding: 0;
   }
 
   #social-div {
@@ -412,7 +413,7 @@ ul li:hover ul.cat-dropdown {
     font-size: 2vw;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
-    padding: 3.5rem;
+    padding: 1rem;
     justify-content: space-around;
   }
 
