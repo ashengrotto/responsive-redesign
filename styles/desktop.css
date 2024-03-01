@@ -53,7 +53,6 @@ ul {
 }
 
 .mobile-nav {
-  position: absolute;
   display: none;
 }
 
@@ -245,41 +244,34 @@ ul li:hover ul.cat-dropdown {
     font-family: Tangerine, 'Source Sans Pro';
   }
 
-  .mobile-nav {
-    list-style-type: none;
-    overflow: hidden;
+  .nav-bar {
+    width: 100vw;
+    height: 8vh;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-  }
-
-  .dropdown-one {
-    display: none;
-    position: absolute;
-  }
-
-  /* ul li:hover ul.dropdown-one {
-    display: block; 
-    color: #7F7FB5;
-    text-decoration: none;
-    justify-content: center;
+    align-self: center;
+    padding-top: 2rem;
     background-color: #e8e8ff;
-  } */
+  }
 
   ul {
     display: none;
   }
 
-  /* .mobile-nav:hover .dropdown-one, #cats-breeds:hover > .dropdown-two {
-    display: block;
+  .mobile-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    padding-top: 1rem;
+    background-color: #e8e8ff;
   }
 
-  .dropdown-two {
-    display: none;
-    cursor: pointer;
+  .dropdown {
     position: absolute;
-    left: 2rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  } */ 
+    display: none;
+  }
 
   #introduction-body {
     width: 100vw;
