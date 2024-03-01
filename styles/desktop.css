@@ -249,7 +249,6 @@ ul li:hover ul.cat-dropdown {
     display: none;
   }
 
-
   .mobile-nav {
     display: flex;
     flex-direction: row;
@@ -264,18 +263,16 @@ ul li:hover ul.cat-dropdown {
     position: absolute;
   }
 
-  .dropdown-two {
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    left: 5rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
   .mobile-nav:hover .dropdown-one, #cats-breeds:hover > .dropdown-two {
     display: block;
   }
 
+  .dropdown-two {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 2rem;
+  }
 
   #introduction-body {
     width: 100vw;
