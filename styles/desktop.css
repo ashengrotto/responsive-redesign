@@ -237,6 +237,13 @@ ul li:hover ul.cat-dropdown {
     overflow: scroll;
   }
 
+  .website-title{
+    text-align: center;
+    font-size: 6vw;
+    color: #2d3142;
+    font-family: Tangerine, 'Source Sans Pro';
+  }
+
   .nav-bar {
     width: 100vw;
     height: 8vh;
