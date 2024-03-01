@@ -437,6 +437,7 @@ ul li:hover ul.cat-dropdown {
     display: flex;
     background-color: #7F7FB5;
     color: #F2F1F3;
+    justify-content: flex-end;
     align-self: flex-end;
     align-content: flex-end;
     vertical-align: bottom;
