@@ -431,4 +431,9 @@ ul li:hover ul.cat-dropdown {
   .phone {
     display: none;
   }
+
+  .scroll-top {
+    background-color: #2d3142;
+    color: #F2F1F3;
+  }
 }
