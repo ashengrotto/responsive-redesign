@@ -52,6 +52,10 @@ ul {
   display: none;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 li a {
   display: block;
   font-size: 2rem;
@@ -242,6 +246,14 @@ ul li:hover ul.cat-dropdown {
     align-self: center;
     padding-top: 2rem;
     background-color: #e8e8ff;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
   }
 
   #introduction-body {
