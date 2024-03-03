@@ -466,7 +466,7 @@ ul li:hover ul.cat-dropdown {
 
   .website-title{
     text-align: center;
-    font-size: 6vmin;
+    font-size: 5vmin;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
     padding-top: 1rem;
@@ -658,12 +658,6 @@ ul li:hover ul.cat-dropdown {
   }
 
   .scroll-top {
-    order: 3;
-    display: flex;
-    background-color: #7F7FB5;
-    color: #F2F1F3;
-    justify-content: flex-end;
-    bottom: 0px;
-    align-self: flex-end;
+    display: none;
   }
 }
