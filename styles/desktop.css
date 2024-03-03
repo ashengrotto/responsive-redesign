@@ -225,7 +225,7 @@ ul li:hover ul.cat-dropdown {
   display: none;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1100px) {
   body {
     width: 97.5vw;
     height: 100vh;
