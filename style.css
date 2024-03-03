@@ -47,7 +47,7 @@ ul {
   justify-content: space-evenly;
 }
 
-.cat-dropdown {
+.dropdown {
   position: absolute;
   display: none;
 }
@@ -71,7 +71,7 @@ li a:hover {
   text-decoration: none;
 }
 
-ul li:hover ul.cat-dropdown {
+ul li:hover ul.dropdown {
   display: block; 
   color: #7F7FB5;
   text-decoration: none;
