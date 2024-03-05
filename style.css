@@ -408,6 +408,7 @@ ul li:hover ul.dropdown {
     display: block;
     text-align: center;
     margin: auto;
+    font-size: 1.75vw;
   }
 
   .mobile-phone {
