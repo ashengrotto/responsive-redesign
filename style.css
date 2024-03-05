@@ -297,7 +297,7 @@ ul li:hover ul.dropdown {
     font-size: 2vmin;
     color: #2d3142;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vmin;
     text-decoration: underline;
     font-family: Spectral, 'Source Sans Pro';
   }
@@ -517,7 +517,7 @@ ul li:hover ul.dropdown {
     font-size: 3vmin;
     color: #2d3142;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vmin;
     text-decoration: underline;
     font-family: Spectral, 'Source Sans Pro';
   }
