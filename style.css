@@ -506,7 +506,6 @@ ul li:hover ul.dropdown {
 
   #introduction {
     display: flex;
-    flex-direction: row;
     background-color: #F2F1F3;
     flex-direction: column;
     justify-content: space-around;
