@@ -631,13 +631,13 @@ ul li:hover ul.dropdown {
     display: block;
     text-align: center;
     margin: auto;
-    font-size: 1vmin;
+    font-size: 3vmin;
   }
 
   .mobile-phone {
     display: block;
     text-align: center;
-    font-size: 1.75vmin;
+    font-size: 4vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     padding: 1rem;
@@ -649,7 +649,7 @@ ul li:hover ul.dropdown {
     display: flex;
     justify-content: start;
     text-align: center;
-    font-size: 3vmin;
+    font-size: 3vw;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
