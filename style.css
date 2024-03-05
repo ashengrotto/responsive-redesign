@@ -535,7 +535,7 @@ ul li:hover ul.dropdown {
     align-self: center;
     max-width: 30vw;
     height: fit-content;
-    padding-left: 5rem;
+    padding-left: 3vw;
   }
 
   .welcome-msg {
