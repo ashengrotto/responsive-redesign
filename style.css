@@ -466,7 +466,7 @@ ul li:hover ul.dropdown {
 
   .website-title{
     text-align: center;
-    font-size: 5vmin;
+    font-size: 6vmin;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
     padding-top: 1rem;
@@ -649,7 +649,7 @@ ul li:hover ul.dropdown {
     display: flex;
     justify-content: start;
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.5vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
