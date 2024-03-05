@@ -212,7 +212,6 @@ ul li:hover ul.dropdown {
 }
 
 .phone {
-  display: flex;
   text-align: center;
   font-size: 1.5vw;
   color: #2d3142;
@@ -424,7 +423,6 @@ ul li:hover ul.dropdown {
   .contact-us {
     order: 1;
     display: flex;
-    justify-content: start;
     text-align: center;
     font-size: 3vw;
     color: #2d3142;
@@ -630,13 +628,13 @@ ul li:hover ul.dropdown {
     display: block;
     text-align: center;
     margin: auto;
-    font-size: 2.2vmin;
+    font-size: 1.5vmin;
   }
 
   .mobile-phone {
     display: block;
     text-align: center;
-    font-size: 3.3vmin;
+    font-size: 2vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     padding: 1rem;
@@ -646,9 +644,8 @@ ul li:hover ul.dropdown {
   .contact-us {
     order: 1;
     display: flex;
-    justify-content: start;
     text-align: center;
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
