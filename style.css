@@ -34,6 +34,7 @@ body {
 }
 
 .website-title{
+  padding: 1vmin;
   text-align: center;
   font-size: 4vw;
   color: #2d3142;
@@ -61,7 +62,7 @@ li a {
   font-size: 3vmin;
   color: #2d3142;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2vmin;
   text-decoration: underline;
   font-family: Spectral, 'Source Sans Pro';
 }
