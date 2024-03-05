@@ -498,7 +498,7 @@ ul li:hover ul.dropdown {
     height: 75vh;
     display: flex;
     align-self: center;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #F2F1F3;
     justify-content: space-around;
     padding: 2rem;
