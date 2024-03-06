@@ -460,6 +460,7 @@ q {
   q {
     display: block;
     text-align: center;
+    font-size: 1.25vmax;
   }
   
   .hemingway {
@@ -467,7 +468,7 @@ q {
     max-width: 70rem;
     text-align: center;
     align-self: center;
-    font-size: 1rem;
+    font-size: 1.25vmax;
     font-weight: 300;
     color: #000000;
     font-family: Spectral, 'Source Sans Pro';
@@ -681,13 +682,14 @@ q {
   q {
     display: block;
     text-align: center;
+    font-size: 2vmax;
   }
   
   .hemingway {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2vmax;
     font-weight: 300;
     color: #000000;
     font-family: Spectral, 'Source Sans Pro';
