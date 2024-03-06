@@ -179,7 +179,7 @@ ul li:hover ul.dropdown {
   align-self: center;
   max-width: 50vw;
   height: fit-content;
-  padding: 0.5rem;
+  padding: 0.4vw;
 }
 
 #mobile-quote {
@@ -358,6 +358,7 @@ q {
   
   .intro-text {
     display: flex;
+    max-width: 90vw;
     text-align: center;
     align-self: center;
     font-size: 0.9vmax;
@@ -417,7 +418,7 @@ q {
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     flex-direction: column;
-    font-size: 1vmax;
+    font-size: 0.9vmax;
   }
 
   #social-media {
