@@ -446,7 +446,9 @@ q {
     display: block;
     text-align: center;
     margin: auto;
-    font-size: 1.75vw;
+    font-size: 1.75vmin;
+    color: #2d3142;
+    font-family: Spectral, 'Source Sans Pro';
   }
 
   #mobile-quote {
@@ -633,7 +635,7 @@ q {
   .welcome-msg {
     display: flex;
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vmin;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
     white-space: nowrap;
@@ -646,12 +648,12 @@ q {
     max-width: 70rem;
     text-align: center;
     align-self: center;
-    font-size: 2rem;
+    font-size: 2.25vmin;
     font-weight: 300;
     color: #000000;
     font-family: Spectral, 'Source Sans Pro';
-    flex-shrink: 0;
     flex-direction: column;
+    padding: 2rem;
   }
   
   .scroll-container {
@@ -735,12 +737,14 @@ q {
     text-align: center;
     margin: auto;
     font-size: 2vmin;
+    color: #2d3142;
+    font-family: Spectral, 'Source Sans Pro';
   }
 
   .mobile-phone {
     display: block;
     text-align: center;
-    font-size: 3vmin;
+    font-size: 2.2vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     padding: 1rem;
@@ -751,7 +755,7 @@ q {
     order: 1;
     display: flex;
     text-align: center;
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
