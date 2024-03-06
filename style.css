@@ -593,7 +593,7 @@ q {
     justify-content: space-around;
     align-self: center;
     max-width: 30vw;
-    height: fit-content;
+    height: auto;
     overflow: hidden;
   }
   
