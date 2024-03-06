@@ -103,15 +103,14 @@ ul li:hover ul.dropdown {
   justify-content: space-around;
   align-self: center;
   max-width: 30vw;
-  height: fit-content;
-  overflow: hidden;
+  height: auto;
 }
 
 .logos {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: fit-content;
+  height: auto;
 }
 
 #cfa {
@@ -119,7 +118,7 @@ ul li:hover ul.dropdown {
   justify-content: space-evenly;
   align-self: center;
   width: 7vw;
-  height: fit-content;
+  height: auto;
 }
 
 #tica {
@@ -127,7 +126,7 @@ ul li:hover ul.dropdown {
   justify-content: space-evenly;
   align-self: center;
   width: 10vw;
-  height: fit-content;
+  height: auto;
 }
 
 #cff {
@@ -135,7 +134,7 @@ ul li:hover ul.dropdown {
   justify-content: space-evenly;
   align-self: center;
   width: 7vw;
-  height: fit-content;
+  height: auto;
 }
 
 .welcome-msg {
@@ -222,7 +221,7 @@ q {
   display: flex;
   flex-direction: row;
   align-self: baseline;
-  height: fit-content;
+  height: auto;
   justify-content: space-evenly;
 }
 
@@ -342,11 +341,6 @@ q {
     font-family: Spectral, 'Source Sans Pro';
   }
 
-  #image-square {
-    width: fit-content;
-    height: fit-content;
-  }
-
   #siamese {
     display: flex;
     align-self: center;
@@ -381,7 +375,7 @@ q {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: fit-content;
+    height: auto;
     padding-top: 2vh;
   }
   
@@ -422,7 +416,7 @@ q {
     display: flex;
     flex-direction: column;
     align-self: baseline;
-    height: fit-content;
+    height: auto;
   }
   
   #social-logo {
@@ -601,7 +595,7 @@ q {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: fit-content;
+    height: auto;
   }
   
   #cfa {
@@ -609,7 +603,7 @@ q {
     justify-content: space-evenly;
     align-self: center;
     width: 7vw;
-    height: fit-content;
+    height: auto;
   }
   
   #tica {
@@ -617,7 +611,7 @@ q {
     justify-content: space-evenly;
     align-self: center;
     width: 10vw;
-    height: fit-content;
+    height: auto;
   }
   
   #cff {
@@ -625,7 +619,7 @@ q {
     justify-content: space-evenly;
     align-self: center;
     width: 7vw;
-    height: fit-content;
+    height: auto;
   }
   
   .welcome-msg {
@@ -710,7 +704,7 @@ q {
     display: flex;
     flex-direction: row;
     align-self: center;
-    height: fit-content;
+    height: auto;
     justify-content: center;
   }
   
