@@ -268,19 +268,18 @@ q {
 
 @media screen and (max-width: 650px) {
   body {
-    width: 97.5vw;
+    width: 100vw;
     height: 100vh;
     background-color: #e8e8ff !important;
     overflow-x: hidden;
   }
   
   #main {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-self: center;
-    overflow: scroll;
   }
 
   .website-title{
@@ -344,26 +343,25 @@ q {
   #siamese {
     display: flex;
     align-self: center;
-    max-width: 100%;
+    width: 80%;
     height: auto;
   }
 
   .welcome-msg {
     display: flex;
     text-align: center;
-    font-size: 7vmin;
+    font-size: 3vmax;
     color: #2d3142;
     font-family: Tangerine, 'Source Sans Pro';
     white-space: nowrap;
     align-self: center;
-    flex-shrink: 0;
   }
   
   .intro-text {
     display: flex;
     text-align: center;
     align-self: center;
-    font-size: 2vmin;
+    font-size: 0.9vmax;
     font-weight: 300;
     color: #000000;
     font-family: Spectral, 'Source Sans Pro';
@@ -409,6 +407,18 @@ q {
   
   .scroll-container img {
     display: none;
+  }
+   
+  .body-text {
+    display: flex;
+    max-width: 80vw;
+    text-align: center;
+    align-self: center;
+    font-weight: 300;
+    color: #2d3142;
+    font-family: Spectral, 'Source Sans Pro';
+    flex-direction: column;
+    font-size: 1vmax;
   }
 
   #social-media {
@@ -498,7 +508,7 @@ q {
   }
 }
 
-@media screen and (orientation: landscape) and (min-width: 650px) and (max-width: 1200px) {
+@media screen and (min-width: 650px) and (max-width: 1200px) {
   body {
     width: 100vw;
     height: 100vh;
@@ -571,7 +581,6 @@ q {
     background-color: #F2F1F3;
     justify-content: space-evenly;
     padding: 2rem;
-    overflow: hidden
   }
   
   #introduction {
@@ -588,7 +597,6 @@ q {
     align-self: center;
     max-width: 30vw;
     height: auto;
-    overflow: hidden;
   }
   
   .logos {
@@ -648,7 +656,6 @@ q {
   
   .scroll-container {
     display: none;
-  
   }
   
   .scroll-container img {
