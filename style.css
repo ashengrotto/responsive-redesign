@@ -33,9 +33,9 @@ body {
 }
 
 .website-title{
-  padding: 1vmin;
+  padding: 1rem;
   text-align: center;
-  font-size: 4vw;
+  font-size: 4vmax;
   color: #2d3142;
   font-family: Tangerine, 'Source Sans Pro';
 }
@@ -58,7 +58,7 @@ ul {
 
 li a {
   display: block;
-  font-size: 3vmin;
+  font-size: 1.75vmax;
   color: #2d3142;
   text-align: center;
   padding: 2vmin;
@@ -140,7 +140,7 @@ ul li:hover ul.dropdown {
 .welcome-msg {
   display: flex;
   text-align: center;
-  font-size: 5vw;
+  font-size: 5vmax;
   color: #2d3142;
   font-family: Tangerine, 'Source Sans Pro';
   white-space: nowrap;
@@ -153,7 +153,7 @@ ul li:hover ul.dropdown {
   max-width: 70rem;
   text-align: center;
   align-self: center;
-  font-size: 2rem;
+  font-size: 1.25vmax;
   font-weight: 300;
   color: #000000;
   font-family: Spectral, 'Source Sans Pro';
@@ -204,7 +204,7 @@ q {
   color: #2d3142;
   font-family: Spectral, 'Source Sans Pro';
   flex-direction: column;
-  font-size: 2.25vmin;
+  font-size: 1.25vmax;
 }
 
 #lower-bar {
@@ -246,7 +246,7 @@ q {
 .contact-us {
   display: flex;
   text-align: center;
-  font-size: 2vw;
+  font-size: 2vmax;
   color: #2d3142;
   font-family: Spectral, 'Source Sans Pro';
   justify-content: space-around;
@@ -256,7 +256,7 @@ q {
 
 .phone {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.5vmax;
   color: #2d3142;
   font-family: Spectral, 'Source Sans Pro';
   padding: 3.5rem;
