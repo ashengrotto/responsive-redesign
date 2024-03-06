@@ -489,7 +489,7 @@ q {
     order: 1;
     display: flex;
     text-align: center;
-    font-size: 3vw;
+    font-size: 1.5vmax;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
@@ -508,6 +508,7 @@ q {
     justify-content: flex-end;
     bottom: 0px;
     align-self: flex-end;
+    font-size: 1vmax;
   }
 }
 
