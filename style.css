@@ -523,6 +523,14 @@ q {
     flex-direction: column;
     overflow-x: hidden;
   }
+
+  .website-title{
+    padding: 1rem;
+    text-align: center;
+    font-size: 5vmax;
+    color: #2d3142;
+    font-family: Tangerine, 'Source Sans Pro';
+  }
   
   .nav-bar {
     width: 100vw;
@@ -736,7 +744,7 @@ q {
     display: block;
     text-align: center;
     margin: auto;
-    font-size: 2vmin;
+    font-size: 1.5vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
   }
@@ -755,7 +763,7 @@ q {
     order: 1;
     display: flex;
     text-align: center;
-    font-size: 3.5vmin;
+    font-size: 3.15vmin;
     color: #2d3142;
     font-family: Spectral, 'Source Sans Pro';
     justify-content: space-around;
